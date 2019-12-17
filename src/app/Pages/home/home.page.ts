@@ -9,4 +9,7 @@ export class HomePage {
 
   constructor() {}
 
+  getData(event) {
+    console.log(event.detail.value);
+  }
 }

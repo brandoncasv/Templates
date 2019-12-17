@@ -10,6 +10,19 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+
+  navigate: any = [
+    {
+      title: 'Home',
+      url: '/home',
+      icon: 'home',
+    },
+    {
+      title: 'Camara Cordova',
+      url: 'camera-cordova',
+      icon: 'camera',
+    },
+  ];
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
@@ -24,4 +37,7 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
+
+
+
 }

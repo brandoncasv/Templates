@@ -1,0 +1,19 @@
+<ion-header>
+  <div class = "customSearch">
+    <ion-button slot="start">
+      <ion-menu-button>
+        <ion-icon name="menu"></ion-icon>
+      </ion-menu-button>
+    </ion-button>
+    <ion-input type="search" clear-input="true" debounce="1000"
+    inputmode="search" placeholder="Ingresa un nombre"
+    (ionChange)="getData($event)"></ion-input>
+    <ion-button slot="end">
+      <ion-icon name="logo-google"></ion-icon>
+    </ion-button>
+  </div>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
