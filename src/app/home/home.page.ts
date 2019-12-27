@@ -9,4 +9,7 @@ export class HomePage {
 
   constructor() {}
 
+  getText(data) {
+    console.log(data.detail.value);
+  }
 }

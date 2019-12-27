@@ -1,14 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+  <div class ="searchCustom">
+    <ion-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-button>
+    <ion-input color="secondary" type="search"
+    clear-input="true" inputmode="search"
+    (ionChange)="getText($event)" debounce="1000"></ion-input>
+    <ion-button>
+      <ion-icon name="logo-google"></ion-icon>
+    </ion-button>
+  </div>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-card>
+    <ion-avatar>
+      <ion-icon name="logo-google"></ion-icon>
+    </ion-avatar>
+  </ion-card>
 </ion-content>
