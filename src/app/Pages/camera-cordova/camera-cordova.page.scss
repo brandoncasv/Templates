@@ -1,0 +1,25 @@
+ion-card {
+
+  ion-card-content {
+    display: contents;
+    align-items: center;
+    ion-button {
+      max-height: 64px;
+      max-width: 64px;
+      height: 100%;
+      width: 100%;
+      --padding-end: 0;
+      --padding-start: 0;
+      position: relative;
+      display: inline-flex;
+      left: calc(50% - 32px);
+      ion-avatar {
+
+        ion-icon {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

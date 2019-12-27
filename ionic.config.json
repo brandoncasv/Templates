@@ -1,5 +1,8 @@
 {
   "name": "Templates",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
