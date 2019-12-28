@@ -8,6 +8,10 @@ const routes: Routes = [
     path: 'camera-cordova',
     loadChildren: () => import('./Pages/camera-cordova/camera-cordova.module').then( m => m.CameraCordovaPageModule)
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./Pages/register/register.module').then( m => m.RegisterPageModule)
+  },
 ];
 
 @NgModule({

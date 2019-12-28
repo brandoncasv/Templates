@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {Platform} from '@ionic/angular';
 import {Plugins, StatusBarStyle} from '@capacitor/core';
+import {RegisterPage} from "./Pages/register/register.page";
 
 @Component({
   selector: 'app-root',
